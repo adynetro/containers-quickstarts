@@ -1,4 +1,4 @@
-FROM docker.io/sonarqube:8.2-community
+FROM docker.io/sonarqube:8.4.0-community
 
 USER root
 CMD apk update
