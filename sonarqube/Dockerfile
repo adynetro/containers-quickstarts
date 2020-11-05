@@ -1,4 +1,4 @@
-FROM docker.io/siamaksade/sonarqube:7.9
+FROM docker.io/openshiftdemos/sonarqube:7.0
 
 USER root
 ARG sonar_plugins="pmd ldap"
