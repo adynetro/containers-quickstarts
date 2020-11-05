@@ -1,8 +1,6 @@
-FROM docker.io/sonarqube:8.4.0-community
+FROM docker.io/sonarqube:8.5-community
 
 USER root
-CMD apk update
-CMD apk add curl
 ARG sonar_plugins="pmd ldap"
 ADD sonar.properties /opt/sonarqube/conf/sonar.properties
 ADD run.sh /opt/sonarqube/bin/run.sh
