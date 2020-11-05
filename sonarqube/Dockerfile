@@ -1,4 +1,4 @@
-FROM docker.io/sonarqube:8.1.0-community
+FROM docker.io/gafda/sonarqube:8.1.0-community
 
 USER root
 ARG sonar_plugins="pmd ldap"
